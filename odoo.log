@@ -1,0 +1,368 @@
+2024-11-04 09:25:27,870 27104 INFO ? odoo: Odoo version 18.0-20241103 
+2024-11-04 09:25:27,870 27104 INFO ? odoo: Using configuration file at C:\Users\shada\Desktop\websites\odoo\Odoo-dev\server\odoo.conf 
+2024-11-04 09:25:27,871 27104 INFO ? odoo: addons paths: ['C:\\Users\\shada\\Desktop\\websites\\odoo\\Odoo-dev\\server\\odoo\\addons', 'c:\\users\\shada\\desktop\\websites\\odoo\\odoo-dev\\sessions\\addons\\18.0', 'c:\\users\\shada\\desktop\\websites\\odoo\\odoo-dev\\server\\odoo\\addons'] 
+2024-11-04 09:25:27,871 27104 INFO ? odoo: database: openpg@localhost:5432 
+2024-11-04 09:25:28,743 27104 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Users\shada\Desktop\websites\odoo\Odoo-dev\thirdparty\wkhtmltopdf.exe 
+2024-11-04 09:25:28,764 27104 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2024-11-04 09:25:29,809 27104 WARNING ? py.warnings: C:\Users\shada\Desktop\websites\odoo\Odoo-dev\python\Lib\site-packages\vobject\base.py:736: SyntaxWarning: invalid escape sequence '\-'
+  File "C:\Users\shada\Desktop\websites\odoo\Odoo-dev\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "C:\Users\shada\Desktop\websites\odoo\Odoo-dev\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "C:\Users\shada\Desktop\websites\odoo\Odoo-dev\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "C:\Users\shada\Desktop\websites\odoo\Odoo-dev\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "C:\Users\shada\Desktop\websites\odoo\Odoo-dev\server\odoo\service\server.py", line 1352, in start
+    load_server_wide_modules()
+  File "C:\Users\shada\Desktop\websites\odoo\Odoo-dev\server\odoo\service\server.py", line 1252, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "C:\Users\shada\Desktop\websites\odoo\Odoo-dev\server\odoo\modules\module.py", line 384, in load_openerp_module
+    __import__(qualname)
+  File "C:\Users\shada\Desktop\websites\odoo\Odoo-dev\server\odoo\addons\web\__init__.py", line 5, in <module>
+    from . import models
+  File "C:\Users\shada\Desktop\websites\odoo\Odoo-dev\server\odoo\addons\web\models\__init__.py", line 12, in <module>
+    from . import res_partner
+  File "C:\Users\shada\Desktop\websites\odoo\Odoo-dev\server\odoo\addons\web\models\res_partner.py", line 12, in <module>
+    import vobject
+  File "C:\Users\shada\Desktop\websites\odoo\Odoo-dev\python\Lib\site-packages\vobject\__init__.py", line 79, in <module>
+    from .base import newFromBehavior, readOne, readComponents
+  File "C:\Users\shada\Desktop\websites\odoo\Odoo-dev\python\Lib\warnings.py", line 110, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "C:\Users\shada\Desktop\websites\odoo\Odoo-dev\server\odoo\netsvc.py", line 317, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2024-11-04 09:25:29,812 27104 WARNING ? py.warnings: C:\Users\shada\Desktop\websites\odoo\Odoo-dev\python\Lib\site-packages\vobject\base.py:1219: SyntaxWarning: invalid escape sequence '\;'
+  File "C:\Users\shada\Desktop\websites\odoo\Odoo-dev\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "C:\Users\shada\Desktop\websites\odoo\Odoo-dev\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "C:\Users\shada\Desktop\websites\odoo\Odoo-dev\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "C:\Users\shada\Desktop\websites\odoo\Odoo-dev\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "C:\Users\shada\Desktop\websites\odoo\Odoo-dev\server\odoo\service\server.py", line 1352, in start
+    load_server_wide_modules()
+  File "C:\Users\shada\Desktop\websites\odoo\Odoo-dev\server\odoo\service\server.py", line 1252, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "C:\Users\shada\Desktop\websites\odoo\Odoo-dev\server\odoo\modules\module.py", line 384, in load_openerp_module
+    __import__(qualname)
+  File "C:\Users\shada\Desktop\websites\odoo\Odoo-dev\server\odoo\addons\web\__init__.py", line 5, in <module>
+    from . import models
+  File "C:\Users\shada\Desktop\websites\odoo\Odoo-dev\server\odoo\addons\web\models\__init__.py", line 12, in <module>
+    from . import res_partner
+  File "C:\Users\shada\Desktop\websites\odoo\Odoo-dev\server\odoo\addons\web\models\res_partner.py", line 12, in <module>
+    import vobject
+  File "C:\Users\shada\Desktop\websites\odoo\Odoo-dev\python\Lib\site-packages\vobject\__init__.py", line 79, in <module>
+    from .base import newFromBehavior, readOne, readComponents
+  File "C:\Users\shada\Desktop\websites\odoo\Odoo-dev\python\Lib\warnings.py", line 110, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "C:\Users\shada\Desktop\websites\odoo\Odoo-dev\server\odoo\netsvc.py", line 317, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2024-11-04 09:25:29,813 27104 WARNING ? py.warnings: C:\Users\shada\Desktop\websites\odoo\Odoo-dev\python\Lib\site-packages\vobject\base.py:1219: SyntaxWarning: invalid escape sequence '\,'
+  File "C:\Users\shada\Desktop\websites\odoo\Odoo-dev\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "C:\Users\shada\Desktop\websites\odoo\Odoo-dev\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "C:\Users\shada\Desktop\websites\odoo\Odoo-dev\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "C:\Users\shada\Desktop\websites\odoo\Odoo-dev\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "C:\Users\shada\Desktop\websites\odoo\Odoo-dev\server\odoo\service\server.py", line 1352, in start
+    load_server_wide_modules()
+  File "C:\Users\shada\Desktop\websites\odoo\Odoo-dev\server\odoo\service\server.py", line 1252, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "C:\Users\shada\Desktop\websites\odoo\Odoo-dev\server\odoo\modules\module.py", line 384, in load_openerp_module
+    __import__(qualname)
+  File "C:\Users\shada\Desktop\websites\odoo\Odoo-dev\server\odoo\addons\web\__init__.py", line 5, in <module>
+    from . import models
+  File "C:\Users\shada\Desktop\websites\odoo\Odoo-dev\server\odoo\addons\web\models\__init__.py", line 12, in <module>
+    from . import res_partner
+  File "C:\Users\shada\Desktop\websites\odoo\Odoo-dev\server\odoo\addons\web\models\res_partner.py", line 12, in <module>
+    import vobject
+  File "C:\Users\shada\Desktop\websites\odoo\Odoo-dev\python\Lib\site-packages\vobject\__init__.py", line 79, in <module>
+    from .base import newFromBehavior, readOne, readComponents
+  File "C:\Users\shada\Desktop\websites\odoo\Odoo-dev\python\Lib\warnings.py", line 110, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "C:\Users\shada\Desktop\websites\odoo\Odoo-dev\server\odoo\netsvc.py", line 317, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2024-11-04 09:25:29,900 27104 INFO ? odoo.service.server: Initiating shutdown 
+2024-11-04 09:25:29,900 27104 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-11-04 09:25:47,392 2320 INFO ? odoo: Odoo version 18.0-20241103 
+2024-11-04 09:25:47,433 2320 INFO ? odoo: Using configuration file at C:\Users\shada\Desktop\websites\odoo\Odoo-dev\server\odoo.conf 
+2024-11-04 09:25:47,433 2320 INFO ? odoo: addons paths: ['C:\\Users\\shada\\Desktop\\websites\\odoo\\Odoo-dev\\server\\odoo\\addons', 'c:\\users\\shada\\desktop\\websites\\odoo\\odoo-dev\\sessions\\addons\\18.0', 'c:\\users\\shada\\desktop\\websites\\odoo\\odoo-dev\\server\\odoo\\addons'] 
+2024-11-04 09:25:47,433 2320 INFO ? odoo: database: openpg@localhost:5432 
+2024-11-04 09:25:47,641 2320 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Users\shada\Desktop\websites\odoo\Odoo-dev\thirdparty\wkhtmltopdf.exe 
+2024-11-04 09:25:47,660 2320 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2024-11-04 09:25:48,165 2320 INFO ? odoo.service.server: HTTP service (werkzeug) running on SHADAN.lan:8069 
+2024-11-04 09:25:52,269 2320 INFO ? odoo.sql_db: Connection to the database failed 
+2024-11-04 09:25:56,348 2320 INFO ? odoo.sql_db: Connection to the database failed 
+2024-11-04 09:41:04,093 2320 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 09:41:04] "GET / HTTP/1.1" 303 - 1 0.007 0.186
+2024-11-04 09:41:04,169 2320 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 09:41:04] "GET /odoo HTTP/1.1" 303 - 2 0.004 0.069
+2024-11-04 09:41:10,246 2320 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 09:41:10] "GET /web/database/selector HTTP/1.1" 200 - 2 0.004 6.069
+2024-11-04 09:42:21,941 2320 INFO None odoo.service.db: Create database `nextdot`. 
+2024-11-04 09:42:23,725 2320 INFO nextdot odoo.modules.loading: loading 1 modules... 
+2024-11-04 09:42:23,725 2320 INFO nextdot odoo.modules.loading: Loading module base (1/1) 
+2024-11-04 09:42:23,743 2320 INFO nextdot odoo.modules.registry: module base: creating or updating database tables 
+2024-11-04 09:42:24,398 2320 INFO nextdot odoo.models: Prepare computation of ir.module.module.menus_by_module 
+2024-11-04 09:42:24,399 2320 INFO nextdot odoo.models: Prepare computation of ir.module.module.reports_by_module 
+2024-11-04 09:42:24,399 2320 INFO nextdot odoo.models: Prepare computation of ir.module.module.views_by_module 
+2024-11-04 09:42:24,610 2320 INFO nextdot odoo.models: Prepare computation of res.partner.user_id 
+2024-11-04 09:42:24,610 2320 INFO nextdot odoo.models: Prepare computation of res.partner.commercial_partner_id 
+2024-11-04 09:42:24,610 2320 INFO nextdot odoo.models: Prepare computation of res.partner.complete_name 
+2024-11-04 09:42:24,611 2320 INFO nextdot odoo.models: Prepare computation of res.partner.company_registry 
+2024-11-04 09:42:24,611 2320 INFO nextdot odoo.models: Prepare computation of res.partner.commercial_company_name 
+2024-11-04 09:42:24,611 2320 INFO nextdot odoo.models: Prepare computation of res.partner.partner_share 
+2024-11-04 09:42:24,694 2320 INFO nextdot odoo.models: Prepare computation of res.currency.decimal_places 
+2024-11-04 09:42:24,741 2320 INFO nextdot odoo.models: Prepare computation of res.company.uses_default_logo 
+2024-11-04 09:42:24,741 2320 INFO nextdot odoo.models: Prepare computation of res.company.logo_web 
+2024-11-04 09:42:24,746 2320 INFO nextdot odoo.models: Computing parent_path for table res_company... 
+2024-11-04 09:42:24,797 2320 INFO nextdot odoo.models: Prepare computation of res.users.signature 
+2024-11-04 09:42:24,798 2320 INFO nextdot odoo.models: Prepare computation of res.users.share 
+2024-11-04 09:42:27,240 2320 INFO nextdot odoo.modules.loading: loading base/data/res_bank.xml 
+2024-11-04 09:42:27,270 2320 INFO nextdot odoo.modules.loading: loading base/data/res.lang.csv 
+2024-11-04 09:42:27,316 2320 INFO nextdot odoo.modules.loading: loading base/data/res_lang_data.xml 
+2024-11-04 09:42:27,375 2320 INFO nextdot odoo.modules.loading: loading base/data/res_partner_data.xml 
+2024-11-04 09:42:27,445 2320 INFO nextdot odoo.modules.loading: loading base/data/res_currency_data.xml 
+2024-11-04 09:42:27,950 2320 INFO nextdot odoo.modules.loading: loading base/data/res_company_data.xml 
+2024-11-04 09:42:27,965 2320 INFO nextdot odoo.modules.loading: loading base/data/res_users_data.xml 
+2024-11-04 09:42:29,201 2320 INFO nextdot odoo.modules.loading: loading base/data/report_paperformat_data.xml 
+2024-11-04 09:42:29,218 2320 INFO nextdot odoo.modules.loading: loading base/data/res_country_data.xml 
+2024-11-04 09:42:29,583 2320 INFO nextdot odoo.modules.loading: loading base/data/ir_demo_data.xml 
+2024-11-04 09:42:29,608 2320 INFO nextdot odoo.modules.loading: loading base/security/base_groups.xml 
+2024-11-04 09:42:29,797 2320 INFO nextdot odoo.modules.loading: loading base/security/base_security.xml 
+2024-11-04 09:42:29,945 2320 INFO nextdot odoo.modules.loading: loading base/views/base_menus.xml 
+2024-11-04 09:42:30,035 2320 INFO nextdot odoo.modules.loading: loading base/views/decimal_precision_views.xml 
+2024-11-04 09:42:30,075 2320 INFO nextdot odoo.modules.loading: loading base/views/res_config_views.xml 
+2024-11-04 09:42:30,097 2320 INFO nextdot odoo.modules.loading: loading base/data/res.country.state.csv 
+2024-11-04 09:42:30,815 2320 INFO nextdot odoo.modules.loading: loading base/views/ir_actions_views.xml 
+2024-11-04 09:42:30,980 2320 INFO nextdot odoo.modules.loading: loading base/views/ir_asset_views.xml 
+2024-11-04 09:42:31,005 2320 INFO nextdot odoo.modules.loading: loading base/views/ir_config_parameter_views.xml 
+2024-11-04 09:42:31,030 2320 INFO nextdot odoo.modules.loading: loading base/views/ir_cron_views.xml 
+2024-11-04 09:42:31,078 2320 INFO nextdot odoo.modules.loading: loading base/views/ir_cron_trigger_views.xml 
+2024-11-04 09:42:31,101 2320 INFO nextdot odoo.modules.loading: loading base/views/ir_filters_views.xml 
+2024-11-04 09:42:31,128 2320 INFO nextdot odoo.modules.loading: loading base/views/ir_mail_server_views.xml 
+2024-11-04 09:42:31,179 2320 INFO nextdot odoo.modules.loading: loading base/views/ir_model_views.xml 
+2024-11-04 09:42:31,335 2320 INFO nextdot odoo.modules.loading: loading base/views/ir_attachment_views.xml 
+2024-11-04 09:42:31,361 2320 INFO nextdot odoo.modules.loading: loading base/views/ir_rule_views.xml 
+2024-11-04 09:42:31,389 2320 INFO nextdot odoo.modules.loading: loading base/views/ir_sequence_views.xml 
+2024-11-04 09:42:31,432 2320 INFO nextdot odoo.modules.loading: loading base/views/ir_ui_menu_views.xml 
+2024-11-04 09:42:31,458 2320 INFO nextdot odoo.modules.loading: loading base/views/ir_ui_view_views.xml 
+2024-11-04 09:42:31,509 2320 INFO nextdot odoo.modules.loading: loading base/views/ir_default_views.xml 
+2024-11-04 09:42:31,535 2320 INFO nextdot odoo.modules.loading: loading base/data/ir_config_parameter_data.xml 
+2024-11-04 09:42:31,545 2320 INFO nextdot odoo.modules.loading: loading base/data/ir_cron_data.xml 
+2024-11-04 09:42:31,564 2320 INFO nextdot odoo.modules.loading: loading base/report/ir_model_report.xml 
+2024-11-04 09:42:31,575 2320 INFO nextdot odoo.modules.loading: loading base/report/ir_model_templates.xml 
+2024-11-04 09:42:31,590 2320 INFO nextdot odoo.modules.loading: loading base/views/ir_logging_views.xml 
+2024-11-04 09:42:31,615 2320 INFO nextdot odoo.modules.loading: loading base/views/ir_qweb_widget_templates.xml 
+2024-11-04 09:42:31,634 2320 INFO nextdot odoo.modules.loading: loading base/views/ir_module_views.xml 
+2024-11-04 09:42:31,709 2320 INFO nextdot odoo.modules.loading: loading base/data/ir_module_category_data.xml 
+2024-11-04 09:42:31,768 2320 INFO nextdot odoo.modules.loading: loading base/data/ir_module_module.xml 
+2024-11-04 09:42:31,840 2320 INFO nextdot odoo.modules.loading: loading base/report/ir_module_reports.xml 
+2024-11-04 09:42:31,851 2320 INFO nextdot odoo.modules.loading: loading base/report/ir_module_report_templates.xml 
+2024-11-04 09:42:31,866 2320 INFO nextdot odoo.modules.loading: loading base/wizard/base_module_update_views.xml 
+2024-11-04 09:42:31,889 2320 INFO nextdot odoo.modules.loading: loading base/wizard/base_language_install_views.xml 
+2024-11-04 09:42:31,908 2320 INFO nextdot odoo.modules.loading: loading base/wizard/base_import_language_views.xml 
+2024-11-04 09:42:31,934 2320 INFO nextdot odoo.modules.loading: loading base/wizard/base_module_upgrade_views.xml 
+2024-11-04 09:42:31,969 2320 INFO nextdot odoo.modules.loading: loading base/wizard/base_module_uninstall_views.xml 
+2024-11-04 09:42:31,987 2320 INFO nextdot odoo.modules.loading: loading base/wizard/base_export_language_views.xml 
+2024-11-04 09:42:32,009 2320 INFO nextdot odoo.modules.loading: loading base/wizard/base_partner_merge_views.xml 
+2024-11-04 09:42:32,031 2320 INFO nextdot odoo.modules.loading: loading base/data/ir_demo_failure_data.xml 
+2024-11-04 09:42:32,055 2320 INFO nextdot odoo.modules.loading: loading base/views/ir_profile_views.xml 
+2024-11-04 09:42:32,086 2320 INFO nextdot odoo.modules.loading: loading base/views/res_company_views.xml 
+2024-11-04 09:42:32,120 2320 INFO nextdot odoo.modules.loading: loading base/views/res_lang_views.xml 
+2024-11-04 09:42:32,149 2320 INFO nextdot odoo.modules.loading: loading base/views/res_partner_views.xml 
+2024-11-04 09:42:32,269 2320 INFO nextdot odoo.modules.loading: loading base/views/res_bank_views.xml 
+2024-11-04 09:42:32,306 2320 INFO nextdot odoo.modules.loading: loading base/views/res_country_views.xml 
+2024-11-04 09:42:32,353 2320 INFO nextdot odoo.modules.loading: loading base/views/res_currency_views.xml 
+2024-11-04 09:42:32,396 2320 INFO nextdot odoo.modules.loading: loading base/views/res_users_views.xml 
+2024-11-04 09:42:32,532 2320 INFO nextdot odoo.modules.loading: loading base/views/res_device_views.xml 
+2024-11-04 09:42:32,560 2320 INFO nextdot odoo.modules.loading: loading base/views/res_users_identitycheck_views.xml 
+2024-11-04 09:42:32,575 2320 INFO nextdot odoo.modules.loading: loading base/views/res_config_settings_views.xml 
+2024-11-04 09:42:32,589 2320 INFO nextdot odoo.modules.loading: loading base/views/report_paperformat_views.xml 
+2024-11-04 09:42:32,620 2320 INFO nextdot odoo.modules.loading: loading base/security/ir.model.access.csv 
+2024-11-04 09:42:32,763 2320 INFO nextdot odoo.modules.loading: Module base: loading demo 
+2024-11-04 09:42:32,763 2320 INFO nextdot odoo.modules.loading: loading base/data/res_users_demo.xml 
+2024-11-04 09:42:34,502 2320 INFO nextdot odoo.modules.loading: loading base/data/res_partner_bank_demo.xml 
+2024-11-04 09:42:34,513 2320 INFO nextdot odoo.modules.loading: loading base/data/res_currency_demo.xml 
+2024-11-04 09:42:34,528 2320 INFO nextdot odoo.modules.loading: loading base/data/res_currency_rate_demo.xml 
+2024-11-04 09:42:34,741 2320 INFO nextdot odoo.modules.loading: loading base/data/res_bank_demo.xml 
+2024-11-04 09:42:34,751 2320 INFO nextdot odoo.modules.loading: loading base/data/res_partner_demo.xml 
+2024-11-04 09:42:34,987 2320 INFO nextdot odoo.modules.loading: loading base/data/res_partner_image_demo.xml 
+2024-11-04 09:42:35,788 2320 INFO nextdot odoo.modules.loading: Module base loaded in 12.06s, 9215 queries (+9215 other) 
+2024-11-04 09:42:35,789 2320 INFO nextdot odoo.modules.loading: 1 modules loaded in 12.06s, 9215 queries (+9215 extra) 
+2024-11-04 09:42:35,844 2320 INFO nextdot odoo.modules.loading: updating modules list 
+2024-11-04 09:42:35,844 2320 INFO nextdot odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2024-11-04 09:42:36,531 2320 INFO nextdot odoo.modules.loading: loading 12 modules... 
+2024-11-04 09:42:36,531 2320 INFO nextdot odoo.modules.loading: Loading module web (2/12) 
+2024-11-04 09:42:36,550 2320 INFO nextdot odoo.modules.registry: module web: creating or updating database tables 
+2024-11-04 09:42:37,256 2320 INFO nextdot odoo.modules.loading: loading web/security/ir.model.access.csv 
+2024-11-04 09:42:37,285 2320 INFO nextdot odoo.modules.loading: loading web/views/webclient_templates.xml 
+2024-11-04 09:42:37,344 2320 INFO nextdot odoo.modules.loading: loading web/views/report_templates.xml 
+2024-11-04 09:42:37,442 2320 INFO nextdot odoo.modules.loading: loading web/views/base_document_layout_views.xml 
+2024-11-04 09:42:37,464 2320 INFO nextdot odoo.modules.loading: loading web/views/partner_view.xml 
+2024-11-04 09:42:37,474 2320 INFO nextdot odoo.modules.loading: loading web/views/speedscope_template.xml 
+2024-11-04 09:42:37,479 2320 INFO nextdot odoo.modules.loading: loading web/views/neutralize_views.xml 
+2024-11-04 09:42:37,485 2320 INFO nextdot odoo.modules.loading: loading web/data/ir_attachment.xml 
+2024-11-04 09:42:37,493 2320 INFO nextdot odoo.modules.loading: loading web/data/report_layout.xml 
+2024-11-04 09:42:37,544 2320 INFO nextdot odoo.modules.loading: Module web loaded in 1.01s, 1110 queries (+1110 other) 
+2024-11-04 09:42:37,544 2320 INFO nextdot odoo.modules.loading: Loading module auth_totp (3/12) 
+2024-11-04 09:42:37,910 2320 INFO nextdot odoo.modules.registry: module auth_totp: creating or updating database tables 
+2024-11-04 09:42:38,000 2320 INFO nextdot odoo.modules.loading: loading auth_totp/security/security.xml 
+2024-11-04 09:42:38,037 2320 INFO nextdot odoo.modules.loading: loading auth_totp/security/ir.model.access.csv 
+2024-11-04 09:42:38,056 2320 INFO nextdot odoo.modules.loading: loading auth_totp/data/ir_action_data.xml 
+2024-11-04 09:42:38,071 2320 INFO nextdot odoo.modules.loading: loading auth_totp/views/res_users_views.xml 
+2024-11-04 09:42:38,106 2320 INFO nextdot odoo.modules.loading: loading auth_totp/views/templates.xml 
+2024-11-04 09:42:38,121 2320 INFO nextdot odoo.modules.loading: loading auth_totp/wizard/auth_totp_wizard_views.xml 
+2024-11-04 09:42:38,149 2320 INFO nextdot odoo.modules.loading: Module auth_totp loaded in 0.61s, 188 queries (+188 other) 
+2024-11-04 09:42:38,149 2320 INFO nextdot odoo.modules.loading: Loading module base_import (4/12) 
+2024-11-04 09:42:40,514 2320 INFO nextdot odoo.modules.registry: module base_import: creating or updating database tables 
+2024-11-04 09:42:41,156 2320 INFO nextdot odoo.modules.loading: loading base_import/security/ir.model.access.csv 
+2024-11-04 09:42:41,179 2320 INFO nextdot odoo.modules.loading: Module base_import loaded in 3.03s, 887 queries (+887 other) 
+2024-11-04 09:42:41,179 2320 INFO nextdot odoo.modules.loading: Loading module base_import_module (5/12) 
+2024-11-04 09:42:41,312 2320 INFO nextdot odoo.modules.registry: module base_import_module: creating or updating database tables 
+2024-11-04 09:42:41,395 2320 INFO nextdot odoo.modules.loading: loading base_import_module/security/ir.model.access.csv 
+2024-11-04 09:42:41,408 2320 INFO nextdot odoo.modules.loading: loading base_import_module/views/base_import_module_view.xml 
+2024-11-04 09:42:41,438 2320 INFO nextdot odoo.modules.loading: loading base_import_module/views/ir_module_views.xml 
+2024-11-04 09:42:41,486 2320 INFO nextdot odoo.modules.loading: Module base_import_module loaded in 0.31s, 164 queries (+164 other) 
+2024-11-04 09:42:41,486 2320 INFO nextdot odoo.modules.loading: Loading module base_setup (6/12) 
+2024-11-04 09:42:41,580 2320 INFO nextdot odoo.modules.registry: module base_setup: creating or updating database tables 
+2024-11-04 09:42:41,639 2320 INFO nextdot odoo.modules.loading: loading base_setup/data/base_setup_data.xml 
+2024-11-04 09:42:41,651 2320 INFO nextdot odoo.modules.loading: loading base_setup/views/res_config_settings_views.xml 
+2024-11-04 09:42:41,696 2320 INFO nextdot odoo.modules.loading: loading base_setup/views/res_partner_views.xml 
+2024-11-04 09:42:41,721 2320 INFO nextdot odoo.modules.loading: Module base_setup loaded in 0.24s, 150 queries (+150 other) 
+2024-11-04 09:42:41,721 2320 INFO nextdot odoo.modules.loading: Loading module bus (7/12) 
+2024-11-04 09:42:41,944 2320 INFO nextdot odoo.modules.registry: module bus: creating or updating database tables 
+2024-11-04 09:42:42,080 2320 INFO nextdot odoo.modules.loading: loading bus/security/ir.model.access.csv 
+2024-11-04 09:42:42,103 2320 INFO nextdot odoo.modules.loading: Module bus loaded in 0.38s, 165 queries (+165 other) 
+2024-11-04 09:42:42,103 2320 INFO nextdot odoo.modules.loading: Loading module web_tour (8/12) 
+2024-11-04 09:42:42,136 2320 INFO nextdot odoo.modules.registry: module web_tour: creating or updating database tables 
+2024-11-04 09:42:42,145 2320 INFO nextdot odoo.models: Prepare computation of res.users.tour_enabled 
+2024-11-04 09:42:42,254 2320 INFO nextdot odoo.modules.loading: loading web_tour/security/ir.model.access.csv 
+2024-11-04 09:42:42,264 2320 INFO nextdot odoo.modules.loading: loading web_tour/views/tour_views.xml 
+2024-11-04 09:42:42,290 2320 INFO nextdot odoo.modules.loading: loading web_tour/views/res_users_views.xml 
+2024-11-04 09:42:42,315 2320 INFO nextdot odoo.modules.loading: Module web_tour loaded in 0.21s, 188 queries (+188 other) 
+2024-11-04 09:42:42,315 2320 INFO nextdot odoo.modules.loading: Loading module html_editor (9/12) 
+2024-11-04 09:42:44,100 2320 INFO nextdot odoo.modules.registry: module html_editor: creating or updating database tables 
+2024-11-04 09:42:44,140 2320 INFO nextdot odoo.modules.loading: Module html_editor loaded in 1.82s, 42 queries (+42 other) 
+2024-11-04 09:42:44,140 2320 INFO nextdot odoo.modules.loading: Loading module iap (10/12) 
+2024-11-04 09:42:44,157 2320 INFO nextdot odoo.modules.registry: module iap: creating or updating database tables 
+2024-11-04 09:42:44,283 2320 INFO nextdot odoo.modules.loading: loading iap/data/services.xml 
+2024-11-04 09:42:44,295 2320 INFO nextdot odoo.modules.loading: loading iap/security/ir.model.access.csv 
+2024-11-04 09:42:44,312 2320 INFO nextdot odoo.modules.loading: loading iap/security/ir_rule.xml 
+2024-11-04 09:42:44,328 2320 INFO nextdot odoo.modules.loading: loading iap/views/iap_views.xml 
+2024-11-04 09:42:44,360 2320 INFO nextdot odoo.modules.loading: loading iap/views/res_config_settings.xml 
+2024-11-04 09:42:44,396 2320 INFO nextdot odoo.modules.loading: Module iap loaded in 0.26s, 183 queries (+183 other) 
+2024-11-04 09:42:44,396 2320 INFO nextdot odoo.modules.loading: Loading module web_editor (11/12) 
+2024-11-04 09:42:44,532 2320 INFO nextdot odoo.modules.registry: module web_editor: creating or updating database tables 
+2024-11-04 09:42:45,159 2320 INFO nextdot odoo.modules.loading: loading web_editor/security/ir.model.access.csv 
+2024-11-04 09:42:45,169 2320 INFO nextdot odoo.modules.loading: loading web_editor/data/editor_assets.xml 
+2024-11-04 09:42:45,175 2320 INFO nextdot odoo.modules.loading: loading web_editor/views/editor.xml 
+2024-11-04 09:42:45,193 2320 INFO nextdot odoo.modules.loading: loading web_editor/views/snippets.xml 
+2024-11-04 09:42:45,252 2320 INFO nextdot odoo.modules.loading: Module web_editor loaded in 0.86s, 1017 queries (+1017 other) 
+2024-11-04 09:42:45,252 2320 INFO nextdot odoo.modules.loading: Loading module web_unsplash (12/12) 
+2024-11-04 09:42:45,292 2320 INFO nextdot odoo.modules.registry: module web_unsplash: creating or updating database tables 
+2024-11-04 09:42:45,339 2320 INFO nextdot odoo.modules.loading: loading web_unsplash/views/res_config_settings_view.xml 
+2024-11-04 09:42:45,366 2320 INFO nextdot odoo.modules.loading: Module web_unsplash loaded in 0.11s, 98 queries (+98 other) 
+2024-11-04 09:42:45,366 2320 INFO nextdot odoo.modules.loading: 12 modules loaded in 8.83s, 4192 queries (+4192 extra) 
+2024-11-04 09:42:45,617 2320 INFO nextdot odoo.modules.loading: Modules loaded. 
+2024-11-04 09:42:45,619 2320 INFO nextdot odoo.modules.registry: Registry changed, signaling through the database 
+2024-11-04 09:42:45,620 2320 INFO nextdot odoo.modules.registry: Registry loaded in 21.920s 
+2024-11-04 09:42:46,911 2320 INFO nextdot odoo.addons.base.models.res_users: Login successful for db:nextdot login:admin from 127.0.0.1 
+2024-11-04 09:42:46,921 2320 INFO nextdot werkzeug: 127.0.0.1 - - [04/Nov/2024 09:42:46] "POST /web/database/create HTTP/1.1" 303 - 19553 10.359 17.123
+2024-11-04 09:42:46,937 2320 INFO nextdot odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-11-04 09:42:46,951 2320 INFO nextdot werkzeug: 127.0.0.1 - - [04/Nov/2024 09:42:46] "GET /odoo HTTP/1.1" 303 - 4 0.006 0.018
+2024-11-04 09:42:47,272 2320 INFO nextdot werkzeug: 127.0.0.1 - - [04/Nov/2024 09:42:47] "GET /web/login?redirect=/odoo? HTTP/1.1" 200 - 51 0.023 0.294
+2024-11-04 09:42:47,700 2320 INFO nextdot werkzeug: 127.0.0.1 - - [04/Nov/2024 09:42:47] "GET /web/binary/company_logo HTTP/1.1" 200 - 2 0.054 0.043
+2024-11-04 09:42:51,623 2320 INFO nextdot odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/4534270/web.assets_frontend.min.css (id:193) 
+2024-11-04 09:42:51,627 2320 INFO nextdot odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/78ce5a5/web.assets_frontend_minimal.min.js (id:194) 
+2024-11-04 09:42:51,634 2320 INFO nextdot werkzeug: 127.0.0.1 - - [04/Nov/2024 09:42:51] "GET /web/assets/4534270/web.assets_frontend.min.css HTTP/1.1" 200 - 12 0.022 4.010
+2024-11-04 09:42:51,648 2320 INFO nextdot werkzeug: 127.0.0.1 - - [04/Nov/2024 09:42:51] "GET /web/assets/78ce5a5/web.assets_frontend_minimal.min.js HTTP/1.1" 200 - 9 0.008 0.058
+2024-11-04 09:42:53,865 2320 INFO nextdot odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/30d01c6/web.assets_frontend_lazy.min.js (id:195) 
+2024-11-04 09:42:54,027 2320 INFO nextdot werkzeug: 127.0.0.1 - - [04/Nov/2024 09:42:54] "GET /web/assets/30d01c6/web.assets_frontend_lazy.min.js HTTP/1.1" 200 - 9 0.006 2.256
+2024-11-04 09:42:54,425 2320 INFO nextdot werkzeug: 127.0.0.1 - - [04/Nov/2024 09:42:54] "GET /web/webclient/translations/1730713374101 HTTP/1.1" 200 - 2 0.002 0.008
+2024-11-04 09:43:04,033 2320 INFO nextdot odoo.addons.base.models.res_users: Login successful for db:nextdot login:admin from 127.0.0.1 
+2024-11-04 09:43:04,043 2320 INFO nextdot werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:04] "POST /web/login HTTP/1.1" 303 - 26 0.045 0.750
+2024-11-04 09:43:04,059 2320 INFO nextdot odoo.addons.base.models.res_device: User 2 inserts device log (zbI1Vi2nyKwKAYclv6isukGUMRZvdcWqJxiakmt981) 
+2024-11-04 09:43:04,637 2320 INFO nextdot werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:04] "GET /odoo HTTP/1.1" 200 - 65 0.028 0.562
+2024-11-04 09:43:05,256 2320 INFO nextdot werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:05] "GET /web/webclient/translations/d2c56b07ed5ced215bfc7ac9b473a7e7916c5840?lang=en_US HTTP/1.1" 200 - 1 0.001 0.283
+2024-11-04 09:43:05,271 2320 INFO nextdot werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:05] "GET /web/webclient/load_menus/386c0517246da19c35ab26781dd057c1386a12fc91006a46d6ea145a8f2bd50f HTTP/1.1" 200 - 7 0.013 0.287
+2024-11-04 09:43:10,867 2320 INFO nextdot odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/8cdae00/web.assets_web.min.css (id:196) 
+2024-11-04 09:43:10,914 2320 INFO nextdot werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:10] "GET /web/assets/8cdae00/web.assets_web.min.css HTTP/1.1" 200 - 12 0.035 5.909
+2024-11-04 09:43:16,922 2320 INFO nextdot odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/eb2475a/web.assets_web_print.min.css (id:197) 
+2024-11-04 09:43:16,931 2320 INFO nextdot werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:16] "GET /web/assets/eb2475a/web.assets_web_print.min.css HTTP/1.1" 200 - 8 0.023 5.985
+2024-11-04 09:43:20,642 2320 INFO nextdot odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/95b550b/web.assets_web.min.js (id:198) 
+2024-11-04 09:43:21,262 2320 INFO nextdot werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:21] "GET /web/assets/95b550b/web.assets_web.min.js HTTP/1.1" 200 - 11 0.010 16.283
+2024-11-04 09:43:21,736 2320 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:21] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 200 - 0 0.000 0.002
+2024-11-04 09:43:21,762 2320 INFO nextdot werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:21] "POST /web/action/load HTTP/1.1" 200 - 10 0.015 0.009
+2024-11-04 09:43:21,857 2320 INFO nextdot werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:21] "GET /web/image/res.partner/3/avatar_128?unique=1730693565000 HTTP/1.1" 200 - 8 0.027 0.018
+2024-11-04 09:43:21,858 2320 INFO nextdot werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:21] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 9 0.026 0.021
+2024-11-04 09:43:21,878 2320 INFO nextdot odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/13e5ec2/bus.websocket_worker_assets.min.js (id:199) 
+2024-11-04 09:43:21,901 2320 INFO nextdot werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:21] "GET /bus/websocket_worker_bundle?v=18.0-2 HTTP/1.1" 200 - 8 0.013 0.075
+2024-11-04 09:43:21,912 2320 INFO nextdot werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:21] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 57 0.049 0.052
+2024-11-04 09:43:22,107 2320 INFO nextdot werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:22] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 1 0.001 0.003
+2024-11-04 09:43:22,420 2320 INFO nextdot werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:22] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 49 0.037 0.159
+2024-11-04 09:43:22,423 2320 INFO nextdot werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:22] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.159
+2024-11-04 09:43:22,429 2320 INFO nextdot werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:22] "GET /websocket?version=18.0-2 HTTP/1.1" 101 - 1 0.001 0.168
+2024-11-04 09:43:22,461 2320 INFO nextdot werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:22] "GET /odoo/offline HTTP/1.1" 200 - 6 0.003 0.015
+2024-11-04 09:43:22,469 2320 INFO nextdot werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:22] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 7 0.050 0.161
+2024-11-04 09:43:22,682 2320 INFO nextdot werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:22] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.011 0.413
+2024-11-04 09:43:22,739 2320 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2024-11-04 09:43:22,800 2320 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:22] "GET /web/static/img/odoo-icon-192x192.png HTTP/1.1" 200 - 0 0.000 0.005
+2024-11-04 09:43:23,185 2320 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:23] "GET /base/static/img/icons/web_studio.png HTTP/1.1" 200 - 0 0.000 0.005
+2024-11-04 09:43:23,187 2320 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:23] "GET /website_sale/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.005
+2024-11-04 09:43:23,187 2320 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:23] "GET /purchase/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.007
+2024-11-04 09:43:23,188 2320 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:23] "GET /base/static/img/icons/knowledge.png HTTP/1.1" 200 - 0 0.000 0.005
+2024-11-04 09:43:23,189 2320 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:23] "GET /mrp/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.008
+2024-11-04 09:43:23,193 2320 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:23] "GET /base/static/img/icons/industry_fsm.png HTTP/1.1" 200 - 0 0.000 0.008
+2024-11-04 09:43:23,511 2320 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:23] "GET /base/static/img/icons/account_accountant.png HTTP/1.1" 200 - 0 0.000 0.006
+2024-11-04 09:43:23,511 2320 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:23] "GET /stock/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.006
+2024-11-04 09:43:23,512 2320 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:23] "GET /point_of_sale/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.008
+2024-11-04 09:43:23,512 2320 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:23] "GET /project/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.007
+2024-11-04 09:43:23,512 2320 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:23] "GET /base/static/img/icons/timesheet_grid.png HTTP/1.1" 200 - 0 0.000 0.007
+2024-11-04 09:43:23,514 2320 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:23] "GET /hr_expense/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.008
+2024-11-04 09:43:23,837 2320 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:23] "GET /hr_recruitment/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.009
+2024-11-04 09:43:23,837 2320 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:23] "GET /hr_holidays/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.009
+2024-11-04 09:43:23,838 2320 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:23] "GET /mass_mailing/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.011
+2024-11-04 09:43:23,840 2320 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:23] "GET /sale_management/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.011
+2024-11-04 09:43:23,841 2320 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:23] "GET /pos_restaurant/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.010
+2024-11-04 09:43:23,843 2320 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:23] "GET /account/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.009
+2024-11-04 09:43:24,170 2320 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:24] "GET /base/static/img/icons/mrp_workorder.png HTTP/1.1" 200 - 0 0.000 0.004
+2024-11-04 09:43:24,170 2320 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:24] "GET /crm/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.005
+2024-11-04 09:43:24,172 2320 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:24] "GET /website/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.006
+2024-11-04 09:43:24,175 2320 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:24] "GET /hr/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.007
+2024-11-04 09:43:24,178 2320 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:24] "GET /data_recycle/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.008
+2024-11-04 09:43:24,179 2320 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:24] "GET /maintenance/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.007
+2024-11-04 09:43:24,490 2320 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:24] "GET /marketing_card/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2024-11-04 09:43:24,492 2320 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:24] "GET /base/static/img/icons/sign.png HTTP/1.1" 200 - 0 0.000 0.004
+2024-11-04 09:43:24,492 2320 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:24] "GET /base/static/img/icons/helpdesk.png HTTP/1.1" 200 - 0 0.000 0.003
+2024-11-04 09:43:24,504 2320 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:24] "GET /base/static/img/icons/sale_subscription.png HTTP/1.1" 200 - 0 0.000 0.002
+2024-11-04 09:43:24,510 2320 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:24] "GET /base/static/img/icons/quality_control.png HTTP/1.1" 200 - 0 0.000 0.004
+2024-11-04 09:43:24,511 2320 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:24] "GET /website_slides/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.004
+2024-11-04 09:43:24,812 2320 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:24] "GET /website_event/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2024-11-04 09:43:24,813 2320 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:24] "GET /base/static/img/icons/planning.png HTTP/1.1" 200 - 0 0.000 0.004
+2024-11-04 09:43:24,815 2320 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:24] "GET /mail/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.005
+2024-11-04 09:43:24,817 2320 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:24] "GET /contacts/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.006
+2024-11-04 09:43:24,825 2320 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:24] "GET /base/static/img/icons/mrp_plm.png HTTP/1.1" 200 - 0 0.000 0.010
+2024-11-04 09:43:24,826 2320 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:24] "GET /calendar/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.008
+2024-11-04 09:43:25,137 2320 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:25] "GET /fleet/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.005
+2024-11-04 09:43:25,139 2320 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:25] "GET /base/static/img/icons/hr_appraisal.png HTTP/1.1" 200 - 0 0.000 0.007
+2024-11-04 09:43:25,141 2320 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:25] "GET /base/static/img/icons/marketing_automation.png HTTP/1.1" 200 - 0 0.000 0.008
+2024-11-04 09:43:25,143 2320 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:25] "GET /im_livechat/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.008
+2024-11-04 09:43:25,144 2320 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:25] "GET /base/static/img/icons/social.png HTTP/1.1" 200 - 0 0.000 0.012
+2024-11-04 09:43:25,154 2320 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:25] "GET /base/static/img/icons/appointment.png HTTP/1.1" 200 - 0 0.000 0.011
+2024-11-04 09:43:25,460 2320 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:25] "GET /base/static/img/icons/web_mobile.png HTTP/1.1" 200 - 0 0.000 0.005
+2024-11-04 09:43:25,461 2320 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:25] "GET /repair/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.005
+2024-11-04 09:43:25,461 2320 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:25] "GET /survey/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.007
+2024-11-04 09:43:25,465 2320 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:25] "GET /hr_attendance/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.008
+2024-11-04 09:43:25,468 2320 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:25] "GET /mass_mailing_sms/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.010
+2024-11-04 09:43:25,471 2320 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:25] "GET /base/static/img/icons/stock_barcode.png HTTP/1.1" 200 - 0 0.000 0.009
+2024-11-04 09:43:25,785 2320 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:25] "GET /base/static/img/icons/voip.png HTTP/1.1" 200 - 0 0.000 0.005
+2024-11-04 09:43:25,787 2320 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:25] "GET /hr_skills/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.007
+2024-11-04 09:43:25,787 2320 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:25] "GET /project_todo/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.008
+2024-11-04 09:43:25,789 2320 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:25] "GET /lunch/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.008
+2024-11-04 09:43:25,791 2320 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:25] "GET /website_hr_recruitment/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.009
+2024-11-04 09:43:25,794 2320 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:25] "GET /base/static/img/icons/sale_amazon.png HTTP/1.1" 200 - 0 0.000 0.010
+2024-11-04 09:43:26,103 2320 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:26] "GET /hr_contract/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
