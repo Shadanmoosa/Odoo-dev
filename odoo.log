@@ -366,3 +366,16 @@
 2024-11-04 09:43:25,791 2320 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:25] "GET /website_hr_recruitment/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.009
 2024-11-04 09:43:25,794 2320 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:25] "GET /base/static/img/icons/sale_amazon.png HTTP/1.1" 200 - 0 0.000 0.010
 2024-11-04 09:43:26,103 2320 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 09:43:26] "GET /hr_contract/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2024-11-04 10:35:35,054 2320 ERROR ? odoo.addons.bus.models.bus: Bus.loop error, sleep and retry 
+Traceback (most recent call last):
+  File "C:\Users\shada\Desktop\websites\odoo\Odoo-dev\server\odoo\addons\bus\models\bus.py", line 255, in run
+    self.loop()
+  File "C:\Users\shada\Desktop\websites\odoo\Odoo-dev\server\odoo\addons\bus\models\bus.py", line 240, in loop
+    conn.poll()
+psycopg2.OperationalError: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+2024-11-04 10:35:35,195 2320 INFO ? odoo.service.server: Initiating shutdown 
+2024-11-04 10:35:35,195 2320 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-11-04 10:35:35,603 2320 INFO ? odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 2 connections  
